@@ -1,0 +1,14 @@
+{
+    "Name": "Debug",
+    "Elements": [
+	{
+	    "Type": 0,
+	    "Text": "FPS: 0",
+	    "Wrapped": true
+	}
+    ],
+    "Grid": "Horizontal",
+    "GridGrow": "Negative",
+    "GridSizeX": 300,
+    "GridSizeY": 300
+}

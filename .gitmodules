@@ -1,0 +1,3 @@
+[submodule "subprojects/rdm4001"]
+	path = subprojects/rdm4001
+	url = git@github.com:floralrainfall/rdm4001.git
