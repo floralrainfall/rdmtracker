@@ -40,12 +40,18 @@ class OPL {
   int* songOrder;
   OPLBlock* songBlocks;
 
+  bool playing;
+
  public:
   OPL(rdm::SoundManager* manager);
   ~OPL();
 
   static uint16_t calcFNum(float freq, int block);
   static uint16_t calcFNum(OPLNote::Key n);
+
+  OPLBlock*& getSongBlocks() { return songBlocks; }
+  int*& getSongOrder() { return songOrder; }
+  OPLSong* getSongHeader() { return song; }
 
   void readSong(const char* file);
 
